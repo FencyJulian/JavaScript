@@ -35,7 +35,7 @@ function loadQues() {
 		currentQuestion = currentQuestion
 			.replace(/"/g, '\"');
 	}
-	if (currentQuestion.indexOf('"') > -1) {
+	if (currentQuestion.indexOf("'") > -1) {
 		currentQuestion = currentQuestion
 			.replace(/&#039;/g, '\'');
 	}
